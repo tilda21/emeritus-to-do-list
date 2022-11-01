@@ -1,0 +1,74 @@
+.app {
+  text-align: center;
+}
+.app-container {
+  margin: 0px 10px;
+}
+.app-container > div {
+  display: flex;
+}
+
+input {
+  padding: 4px;
+  margin-right: 8px;
+  height: 23px;
+  flex-grow: 9
+}
+
+text {
+  font-size: medium;
+}
+
+ul {
+  /* Remove bullet point  */
+  list-style: none;
+  padding: 0px;
+}
+
+img {
+  width: 25px;
+}
+
+button {
+  height: 35px;
+  font-size: 10px;
+  margin-left: 8px;
+}
+
+.row {
+  padding: 0px 10px;
+  margin: 12px 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.item {
+  width: 80%;
+}
+
+.button-add {
+  flex-grow: 1
+}
+.button-update {
+  flex-grow: 2
+}
+.button-edit {
+  width: 10%;
+}
+.div-delete {
+  width: 10%;
+}
+.button-delete {
+  width: 100%;
+}
+
+#updatingForm {
+  margin-left: 8px;
+  flex-grow: 2
+}
+#updatingForm > input {
+  width: 60%;
+}
+#updatingForm > button {
+  width: 20%;
+}
